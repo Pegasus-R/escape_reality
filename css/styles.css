@@ -1,0 +1,65 @@
+body {               background-color: #fcde67;
+                     font-family: 'Montserrat', sans-serif;     }
+
+/* Header Properties */
+
+.logo_column {    text-align: center;         }
+.main_logo   {    position: relative;
+                  top: 20px;                  }
+.company_name_1 { font-weight: 700;
+                  font-size: 1rem;
+                  color: #000000       }
+.company_name_2 { font-weight: 700;
+                  font-size: 2.5rem;
+                  position: relative;
+                  bottom: 24px;
+                  color: #000000              }
+.navbar-toggler { padding: 0rem 1.25rem;
+                  font-size: 2rem;
+                  line-height: 0.5;
+                  border: 3px;
+                  border-radius: 0.25rem;     }
+.navbar {         position: absolute;
+                  right: 100px;
+                  top: 50px;                  }
+#collapse_menu  { position: absolute;
+                  inset: 0px 315px auto auto;
+                  margin: 0px;
+                  transform: translate(320px, 112px);
+                  text-align: right;          }
+.dropdown-item  { width: 300px;
+                  font-size: 1.2rem;
+                  font-weight: 700;}
+
+/* Body Properties */
+.robot_image    { height: 370px;
+                  position: absolute;
+                  right: 5rem;
+                  bottom: 70px;               }
+.man_image      { height: 400px;
+                  position: absolute;
+                  left: 5rem;
+                  bottom: 70px;               }
+.carousel-item  { padding: 2% 20%; }
+.carousel_h2    { text-align: center;
+                  padding: 5%;                }
+.btn-let        { margin-top:  32px;
+                  margin-left: 73px;
+                  font-weight: 500;
+                  font-size: 1.75rem       }
+.about_me       { font-weight: 600;
+                  padding-right: 55px;
+                  text-align:justify;}
+.myname         { font-weight: 700;
+                  font-size: 6rem;}
+/* Footer Properties */
+
+#footer {         background-color: #5bccf6;
+                  position: absolute;
+                  bottom: 0;
+                  width: 100%;
+                  padding: 2% 2% 25px;
+                  text-align: center;         }
+.social-icon {    margin: 10px 10px;          }
+.copyright {      margin-top: 15px;
+                  margin-bottom: 0;           }
